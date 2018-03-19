@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        style="@style/SectionLayout"
+        android:layout_height="?attr/actionBarSize">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            style="@style/SectionLayout"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            style="@style/Header.Title"
+            android:layout_height="@dimen/action_bar_size"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/content_spacing_xl"
+            android:layout_marginRight="@dimen/content_spacing_xl"
+            android:ellipsize="end"
+            android:visibility="gone"
+            tools:text="Toolbar Title" />
+
+        <ImageView
+            android:id="@+id/logo"
+            style="@style/SectionLayout"
+            android:layout_centerInParent="true"
+            android:layout_margin="@dimen/content_spacing_small"
+            android:contentDescription="@string/common_description_logo"
+            android:src="@drawable/toolbar_logo"/>
+    </RelativeLayout>
+
+</layout>

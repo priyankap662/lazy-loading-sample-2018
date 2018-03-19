@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="com.sample.assignment.utils.CollectionUtils" />
+
+        <variable
+            name="listItems"
+            type="java.util.List" />
+
+    </data>
+
+    <RelativeLayout style="@style/PagePadded">
+
+        <TextView
+            android:id="@+id/error_text"
+            style="@style/Body"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:text="@string/error_generic_content"
+            app:visibility="@{CollectionUtils.isEmpty(listItems)}" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/list_view"
+            style="@style/MatchParentLayout"
+            android:tag="@string/tag_swipe_list_view"
+            app:items="@{listItems}"
+            app:visibility="@{!CollectionUtils.isEmpty(listItems)}" />
+    </RelativeLayout>
+</layout>

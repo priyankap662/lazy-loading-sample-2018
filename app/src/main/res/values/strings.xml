@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Assignment</string>
+
+    <!-- Content Descriptions -->
+    <!--TODO Change Company name. This is sample app hence kept it generic-->
+    <string name="common_description_logo">Company Name</string>
+
+    <!-- page title (intentionally empty) -->
+    <string name="page_title_empty" />
+    <string name="page_title_inline" />
+    <string name="page_title_logo" />
+    <string name="page_title_identifier" />
+
+    <!-- tags -->
+    <string name="tag_swipe_list_view">tag_swipe_list_view</string>
+
+    <!-- error messages-->
+    <string name="error_generic_content">A system error has occurred. Please try again at a later time.</string>
+
+</resources>

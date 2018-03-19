@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- content spacing -->
+    <dimen name="content_spacing_tiny">3dp</dimen>
+    <dimen name="content_spacing_small">6dp</dimen>
+    <dimen name="content_spacing">12dp</dimen>
+    <dimen name="content_spacing_large">24dp</dimen>
+    <dimen name="content_spacing_xl">48dp</dimen>
+
+    <!-- header font sizes -->
+    <dimen name="header_title">18sp</dimen>
+    <dimen name="header1_text">40sp</dimen>
+    <dimen name="header2_text">30sp</dimen>
+    <dimen name="header3_text">24sp</dimen>
+    <dimen name="header4_text">18sp</dimen>
+
+    <!-- text font sizes -->
+    <dimen name="text_size_body">14sp</dimen>
+    <dimen name="text_size_caption">14sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+
+    <!-- common layout -->
+    <dimen name="action_bar_size">48dp</dimen>
+
+    <!-- layout -->
+    <dimen name="destination_image_width">120dp</dimen>
+</resources>

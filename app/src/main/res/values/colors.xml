@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="text_primary_color">#ff000000</color>
+    <color name="text_secondary_color">#ff575859</color>
+    <color name="reversed_text_color">#ffffffff</color>
+
+    <color name="divider_color">#33ffffff</color>
+    <color name="accent_color">#ff00a3ad</color>
+
+    <color name="lazy_loading_1_color">#ff267993</color>
+    <color name="lazy_loading_2_color">#ffffaf26</color>
+    <color name="lazy_loading_3_color">#ff394671</color>
+    <color name="lazy_loading_4_color">#ff934782</color>
+    <color name="lazy_loading_5_color">#ff605ea2</color>
+    <color name="lazy_loading_6_color">#ffff8391</color>
+</resources>

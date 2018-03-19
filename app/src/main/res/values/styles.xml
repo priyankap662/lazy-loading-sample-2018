@@ -1,0 +1,82 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <item name="android:launchMode">singleTop</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+
+        <item name="android:listDivider">@color/divider_color</item>
+        <item name="colorAccent">@color/accent_color</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark" />
+
+    <!-- Base application theme. -->
+    <style name="MatchHeightLayout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="MatchParentLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="WrapContentLayout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="SectionLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="SectionView" parent="SectionLayout">
+        <item name="android:paddingBottom">@dimen/content_spacing</item>
+    </style>
+
+    <style name="SectionVertical" parent="SectionLayout">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="ContentPadded" parent="SectionVertical">
+        <item name="android:paddingLeft">@dimen/content_spacing</item>
+        <item name="android:paddingRight">@dimen/content_spacing</item>
+        <item name="android:paddingTop">@dimen/content_spacing</item>
+    </style>
+
+    <style name="PagePadded" parent="ContentPadded">
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="ToolbarContainer" parent="MatchParentLayout">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="SectionScroll" parent="MatchParentLayout">
+        <item name="android:fillViewport">true</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+
+    <style name="SectionContainer" parent="SectionVertical">
+        <!--<item name="android:background">?attr/pageBackgroundSilver</item>-->
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="ProgressBarInline" parent="@style/Base.Widget.AppCompat.ProgressBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:progressDrawable">@drawable/progress_bar_auth</item>
+    </style>
+
+</resources>

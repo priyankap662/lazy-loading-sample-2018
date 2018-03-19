@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- network -->
+    <integer name="connection_timeout_seconds">30</integer>
+    <integer name="read_timeout_seconds">30</integer>
+    <integer name="session_cache_seconds">600</integer>
+
+    <!-- view -->
+    <integer name="progress_bar_ring_ratio">16</integer>
+
+    <integer name="destination_image_ratio_height">9</integer>
+    <integer name="destination_image_ratio_width">16</integer>
+
+</resources>

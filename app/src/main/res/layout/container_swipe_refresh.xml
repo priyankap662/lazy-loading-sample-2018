@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="loading"
+            type="boolean" />
+    </data>
+
+    <LinearLayout
+        android:id="@+id/page_container"
+        style="@style/ToolbarContainer">
+
+        <include layout="@layout/toolbar" />
+
+        <RelativeLayout style="@style/SectionContainer">
+
+            <ProgressBar
+                android:id="@+id/progress_inline"
+                style="@style/ProgressBarInline"
+                android:layout_above="@+id/swipe_refresh_layout"
+                app:visibility="@{loading}" />
+
+            <android.support.v4.widget.SwipeRefreshLayout
+                android:id="@+id/swipe_refresh_layout"
+                style="@style/MatchParentLayout"
+                android:visibility="gone"
+                app:visibility="@{!loading}">
+
+                <android.support.v4.widget.NestedScrollView
+                    android:id="@+id/frame_layout"
+                    style="@style/SectionScroll" />
+
+            </android.support.v4.widget.SwipeRefreshLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</layout>
